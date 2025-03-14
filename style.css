@@ -1,0 +1,48 @@
+.divlink {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.link {
+    font-size: 45px;
+    text-decoration: none;
+    color: black
+}
+.dheading {
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+}
+.dtext {
+    display: flex;
+    justify-content: center;
+    margin-top:-8% ;
+}
+.text {
+    font-size: 25px;
+}
+.heading {
+font-size: 1000%;
+}
+.dscndtext {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+@media (max-width: 760px) { 
+    .heading {
+        font-size: 68px;
+    }
+    .text {
+        font-size: 40px;
+    }
+    .divlink {
+        margin-top: 80px;
+    }
+    .link {
+        font-size: 48px;
+    }
+    body {
+    }
+}
