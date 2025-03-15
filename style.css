@@ -1,12 +1,13 @@
-.divlink {
+.divlinks {
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: -300px;
+    position: relative;
 }
 .link {
     font-size: 45px;
-    text-decoration: none;
-    color: black
+    position: absolute;
+    text-decoration: dashed;
 }
 .dheading {
     display: flex;
@@ -19,7 +20,7 @@
     margin-top:-8% ;
 }
 .text {
-    font-size: 25px;
+    font-size: 40px;
 }
 .heading {
 font-size: 1000%;
@@ -28,7 +29,36 @@ font-size: 1000%;
     display: flex;
     justify-content: center;
     margin-top: 200px;
+    position: relative;
 }
+.bigcats {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 80px;
+}
+.smallcat1 {
+    width: 220px;
+    height: 300px;
+}
+.smallcat2 {
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    background-image: url(fon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.scndtext {
+    position: absolute;
+    font-size: 25px;
+}
+.lastlink {
+    text-decoration: dashed;
+}
+
 
 @media (max-width: 760px) { 
     .heading {
@@ -37,12 +67,28 @@ font-size: 1000%;
     .text {
         font-size: 40px;
     }
-    .divlink {
+    .divlinks {
         margin-top: 80px;
     }
     .link {
         font-size: 48px;
     }
     body {
+        background-image: url(photo_2025-03-15_11-05-27.jpg);
+        background: linear-gradient(rgb(249, 246, 100), rgb(249, 246, 156));
+    }
+    .dscndtext {
+        margin-top: -100px;
+    }
+    .smallcat1 {
+        width: 140px;
+        height: 200px;
+    }
+    .smallcat2 {
+        width: 180px;
+        height: 190px;
+    }
+    .bigcats {
+        margin-top: -20px;
     }
 }
